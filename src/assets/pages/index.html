@@ -1,34 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compra Finalizada</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="common.css">
+    <title>Avaliacao</title>
 </head>
 <body>
-    <div class="cabeçalho">
-         <button>  <img src="../images/seta-direita-triangulo-preto (1) 1 (2).png"> Voltar </button> 
+    <div class="page-avaliacao">
+        <div class="cabecalho">
+          <button class="botao-cabecalho">   <img src="../images/seta-direita-triangulo-preto (1) 1 (2).png" alt=""> Voltar</button>
+        </div>
+        <div class="container-central">
+            <div class="div-agradecimento">
+                <div>
+                    <img src="../images/confere.png" alt="">
+                </div>
+                <h1>Obrigado!</h1>
+                <p>Sua compra foi realizada com sucesso.</p>
+            </div>
+            <div class="div-avaliacao">
+                <h1>Avalie-nos!</h1>
+
+                <div class="group-1">
+                    <label for="avaliacao">Avaliação</label>
+                <input type="number" id="avaliacao">
+                </div>
+                <div class="group-2">
+                    <label for="coment">Comentário</label>
+                    <textarea name="comentário" id="coment" cols="30" rows="10"></textarea>
+                </div>
+                <button class="btn-enviar">Enviar</button>
+            </div>
+        </div>
+        <div class="barra-azul">
+            <p>.</p>
+        </div>
     </div>
-<div class="boxprincipal">
-
-<div class="obrigado">
-<img src="../images/obrigadoo.jpg"> </img> 
-<h1>Obrigado!</h1>
-<p> Sua compra foi realizada com sucesso. </p>
-
-
-   </div>
-
-</div>
-
-
-
-
-
-</div>
-
-
 </body>
 </html>
